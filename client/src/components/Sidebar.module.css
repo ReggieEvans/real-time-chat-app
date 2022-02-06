@@ -1,0 +1,28 @@
+.sidebar {
+  background: #f9fbfc;
+  margin-top: 70px;
+  padding: 16px;
+  width: 300px;
+  border-bottom-left-radius: 8px;
+}
+
+.sidebarRoom {
+  margin-bottom: 32px;
+}
+
+.roomText {
+  color: #000;
+  text-transform: capitalize;
+}
+
+.roomText h2 {
+  margin: 4px 0;
+  padding: 0;
+}
+
+.roomText h5 {
+  margin: 8px 0;
+  padding: 0;
+  color: #40415f;
+  text-transform: uppercase;
+}

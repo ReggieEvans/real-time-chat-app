@@ -1,0 +1,28 @@
+.card {
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  background: #fff;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.4);
+}
+
+.cardHeader {
+  padding: 4px 16px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background: #40415f;
+  color: #fff;
+}
+
+.cardContent {
+  padding: 24px 16px;
+}
+
+.cardContentField {
+  margin-top: 8px;
+  text-align: left;
+}
+
+.cardContentField a {
+  text-decoration: none;
+}

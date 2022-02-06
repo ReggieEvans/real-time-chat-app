@@ -1,0 +1,47 @@
+.message {
+  padding: 8px 16px;
+  width: 50%;
+  margin: 8px 0;
+}
+
+.self {
+  background-image: linear-gradient(to bottom right, #884af7, #b749ff);
+  color: #fff;
+  align-self: flex-end;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.users {
+  background: #e7eff7;
+  color: #000;
+  align-self: flex-start;
+  border-radius: 16px;
+}
+
+.admin {
+  background: transparent;
+  color: #666;
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+
+.messageHeader {
+  display: flex;
+  align-items: center;
+}
+
+.messageHeader div:first-child {
+  font-weight: bold;
+}
+
+.messageHeader div:last-child {
+  font-size: 12px;
+  margin-left: auto;
+}
+
+.messageContent {
+  margin: 16px 0 8px 0;
+}

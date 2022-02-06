@@ -1,0 +1,42 @@
+.chat {
+  background: #fff;
+  max-width: 1000px;
+  width: 1000px;
+  height: 600px;
+  margin: 24px auto;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  height: inherit;
+}
+
+.messageContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  height: calc(100% - 72px);
+  width: 100%;
+}
+
+.messageArea {
+  height: 85%;
+  padding: 16px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageForm {
+  padding: 16px;
+}
+
+.messageForm form {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.messageForm button {
+  margin-left: 8px;
+}
